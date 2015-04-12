@@ -1,5 +1,9 @@
 .body {
-
+	text-align: left; 
+	font-family: Plantin Cyrillic, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
 }
 
 h1 {
@@ -18,3 +22,17 @@ h1 {
 	color: #000000;
 	text-transform: lowercase;
 }
+#special {
+	text-align: left; 
+	font-family: Plantin Cyrillic, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+}
+
+
+
+
+
+
+
