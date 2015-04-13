@@ -47,13 +47,17 @@ ul {
 	color: #000000;
 }
 
-h3 { text-align: left; 
+.section { 
+	text-align: left; 
 	font-family: Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
 	color: #000000;
 	}
 
+#link  {
+	
+}
 
 
 
