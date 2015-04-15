@@ -49,13 +49,18 @@ ul {
 
 .section { 
 	text-align: left; 
-	font-family: Helvetica, sans-serif;
-	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
 	font-weight: bold;
 	color: #000000;
-	}
 
-#link  {
+#email {
+	text-align: left; 
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: light;
+	color: #000000;
+
 	
 }
 
