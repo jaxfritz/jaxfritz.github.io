@@ -53,12 +53,13 @@ ul {
 	font-size: 14px;
 	font-weight: bold;
 	color: #000000;
+}
 
 #email {
 	text-align: left; 
 	font-family: Helvetica, sans-serif;
 	font-size: 12px;
-	font-weight: light;
+	font-weight: normal;
 	color: #000000;
 
 	
