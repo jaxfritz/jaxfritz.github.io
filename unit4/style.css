@@ -1,0 +1,78 @@
+body {
+	text-align: left; 
+	font-family: 'Karla', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #000000;
+	margin: 20px;
+}
+
+html { 
+  	background: url("../unit3/images/20070621_060412_o.jpg")no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 80px;
+	color: #000000;
+	font-weight: bold;
+}
+
+#slogan {
+	text-align: center;
+	font-family: 'Karla', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #000000;
+	text-transform: lowercase;
+	padding-bottom: 20px
+}
+
+.Specializations{
+	text-align: left; 
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000000;
+}
+
+ul {
+	text-align: left; 
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000000;
+}
+
+.section { 
+	text-align: left; 
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+}
+
+#email {
+	text-align: left; 
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #000000;
+}
+
+h3 {
+	text-align: left; 
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+}
+
+
+
+
