@@ -76,7 +76,7 @@ h3 {
 	margin: 0 auto;
 }
 
-.bodycopy {
+#bodycopy {
 	width: 100%;
 	background-color: rgba(255, 255, 255, .5);
 	font-family: 'Roboto', sans-serif;
@@ -87,5 +87,12 @@ h3 {
 	padding: 40px;
 }
 
+#wrapper {
+	margin: 0 auto;
+    background color: rgba(0,0,0,.5);
+    width: 100%;
+}
 
+#p {
 
+}
