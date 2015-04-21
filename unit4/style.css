@@ -1,4 +1,4 @@
-.body {
+body {
 	text-align: left; 
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
@@ -7,7 +7,7 @@
 	margin: 0 auto;
 }
 
-.html { 
+html { 
   	background: url("../unit3/images/20070621_060412_o.jpg")no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -44,7 +44,7 @@ h1 {
 
 }
 
-.ul {
+ul {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	font-weight: normal;
@@ -68,7 +68,7 @@ h1 {
 	margin: 0 auto;
 }
 
-.h3 { 
+h3 { 
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	font-weight: bold;
