@@ -13,7 +13,7 @@ html {
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-backgroufnd-size: cover;
-  	background-size: cover;
+  	background-size: 
 }
 
 h1 {
@@ -34,7 +34,8 @@ h1 {
 	text-transform: lowercase;
 	margin: 120px auto;
 	padding: 1cm auto;
-	background-color: rgba((255, 255, 255, 0.5);
+	background-color: #CCC;
+	opacity:0.6;;
 }
 
 .Specializations{
