@@ -1,28 +1,58 @@
-body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	font-weight: normal;
-	color: #000000;
-	margin-left: auto;
-    margin-right: auto;
-	width: 400px;
-}
 
 html { 
   	background: url("../unit3/images/20070621_060412_o.jpg")no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
-  	-o-backgroufnd-size: cover;
-  	background-size: 
+  	-o-background-size: cover;
+  	background-size: cover;
+  }
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #000000;
 }
 
 h1 {
-	font-family: 'Karla', sans-serif;
 	text-align: center;
+	font-family: 'Karla', sans-serif;
 	font-size: 80px;
-	color: #000000;
 	font-weight: bold;
-	margin: 120px, auto;
+	margin: 20px auto;
+	background-color: rgba(255, 255, 0, 0.9);
+	width: 500px;
+	border: 1px solid black;
+}
+h3, h4 { 
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	margin: 40px auto; 
+	padding: 10px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border: 1px solid black;
+}
+/*ul font is inherited from*/
+ul { 
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0 auto;
+    width: 450px;
+    background-color: rgba(255, 0, 0, 0.9);
+    }
+
+li {
+	line-height: 25px;
+}
+
+p {
+	text-align: center;
+	margin: 0 auto;
+    width: 500px;
+    background-color: rgba(255, 0, 0, 0.9);
+
 }
 
 #slogan {
@@ -30,96 +60,20 @@ h1 {
 	font-family: 'Karla', sans-serif;
 	font-size: 30px;
 	font-weight: bold;
-	color: #000000;
 	text-transform: lowercase;
-	margin: 120px auto;
-	background-color: #CCC;
-	opacity:0.6;;
-}
+	width: 500px;
+	margin: 30px auto;
+	background-color: rgba(255, 0, 255, 0.9);
 
-.Specializations{
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	font-weight: normal;
-	color: #000000;
-	margin: 0 auto;
-
-}
-
-ul {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	font-weight: normal;
-	color: #000000;
-	margin-left: auto;
-    margin-right: auto;
-    background color: rgba(255, 255, 255, 0.5);
-    width: 600px;
-}
-
-.section {  
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	font-weight: bold;
-	color: #000000;
-	margin-left: auto;
-    margin-right: auto;
-    width: 600px;
 }
 
 #email {
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	font-weight: normal;
-	color: #000000;
-	margin-left: auto;
-    margin-right: auto;
-    width: 600px;
 }
 
-h3 { 
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	font-weight: bold;
-	color: #000000;
-	margin: 0 auto;
+
+#wrapper1 {
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.7);
 }
 
-#bodycopy {
-	background-color: rgba(255, 255, 255, .5);
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	font-weight: normal;
-	color: #000000;
-	padding: 140px;
-	margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    background-color: #CCC;
-	opacity:0.6;
-}
-
-#wrapper {
-	margin-left: auto;
-    margin-right: auto;
-    background color: rgba(255, 255, 255, 0.5);
-    width: 400px;
-}
-
-#paragraph {
-	margin-left: auto;
-    margin-right: auto;
-    background color: rgba(255, 255, 255, 0.5);
-    width: 400px;
-    padding: 140px;
-    background-color: #CCC;
-	opacity: 0.6;
-
-}
-
-h4 { 
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	font-weight: bold;
-	color: #000000;
-	margin: 0 auto;
