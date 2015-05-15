@@ -25,11 +25,11 @@ li {
 }
 
 #page-header {
-	width: 800px;
+	width: 400px;
   	margin: 0 auto;
   	background-color: yellow;
 }	
-
-#page-header > .wrapper {
-	margin: 20px;
+.wrapper {
+	margin: 800px;
 	border: 1px solid black;
+	background-color: #d600ff;
