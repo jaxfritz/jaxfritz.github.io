@@ -24,10 +24,10 @@ li {
 	margin-right: 20px;
 }
 
-#page-header {
+header {
 	width: 400px;
   	margin: 0 auto;
-  	background-color: yellow;
+  	background-color: #e7a45d;
 }	
 .wrapper {
 	margin: 800px;
