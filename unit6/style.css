@@ -4,7 +4,7 @@
 
 
 
-nav, li, #page-title {
+nav, li {
 	display: inline-block;
 }
 
@@ -25,11 +25,14 @@ li {
 }
 
 header {
-	width: 400px;
+  	width: 1000px;
   	margin: 0 auto;
   	background-color: #e7a45d;
 }	
+
 .wrapper {
-	margin: 800px;
+	margin: 0 auto;
+	width: 1400px;
 	border: 1px solid black;
 	background-color: #d600ff;
+}
