@@ -3,19 +3,9 @@
 }*/
 
 
+
 nav, li, #page-title {
 	display: inline-block;
-}
-
-#page-header {
-	width: 800px;
-  	margin: 0 auto;
-  	background-color: yellow;
-}	
-
-#page-header > .wrapper {
-	margin: 20px;
-	border: 1px solid black;
 }
 
 nav {
@@ -33,3 +23,13 @@ li {
 	border: 1px solid black;
 	margin-right: 20px;
 }
+
+#page-header {
+	width: 800px;
+  	margin: 0 auto;
+  	background-color: yellow;
+}	
+
+#page-header > .wrapper {
+	margin: 20px;
+	border: 1px solid black;
