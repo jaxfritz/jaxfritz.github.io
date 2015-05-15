@@ -1,0 +1,35 @@
+/*#page-header > .wrapper > h1 {
+
+}*/
+
+
+nav, li, #page-title {
+	display: inline-block;
+}
+
+#page-header {
+	width: 800px;
+  	margin: 0 auto;
+  	background-color: yellow;
+}	
+
+#page-header > .wrapper {
+	margin: 20px;
+	border: 1px solid black;
+}
+
+nav {
+	float: right;
+	background-color: rgb(27, 254, 214);
+}
+
+ul {
+	border: 1px solid red;
+}
+
+li {
+	background-color: white;
+	padding: 10px 25px 10px 25px;
+	border: 1px solid black;
+	margin-right: 20px;
+}
