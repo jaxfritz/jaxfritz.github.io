@@ -87,17 +87,12 @@ h2 {
 .banner {
 	margin: 0 auto;
 	display: block;
-	background:url(../Unit6/images/Slider_CC1.jpg) center center no-repeat;
+	background:url(../unit6/images/Slider_CC1.jpg) center center no-repeat;
 	background-size: cover;
 	overflow: hidden;
 	padding: 15%;
 	box-shadow: inset 0 0 5px rgba(0,0,0,.75);
 	opacity: 0.8;
-}
-
-img {
-    opacity: 0.6;
-    filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 
 .business {
