@@ -1,0 +1,172 @@
+/*#page-header > .wrapper > h1 {
+
+}*/
+
+header {
+  	width: 100%;
+  	margin: 0%;
+  	background-color: white; 
+  }
+
+body {
+	background-color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+nav {
+	float: right;
+  	background-color: white;
+}
+
+ul {
+	margin-right: 10px;
+	background-color: black;
+}
+
+li {
+	background-color: black;
+	padding: 2px 1px 2px 1px;
+	margin: 0 10px;
+	display: inline-block;
+}
+
+a { 
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 400;
+	font-size: 15px; 
+	text-decoration: none;
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Rokkitt', serif;
+}
+
+li a {
+	color: white;
+}
+
+a:hover {
+	color: #3b5998;
+}
+
+h1 {
+	font-family: 'Rokkitt', serif; 
+	text-align: center;
+  	font-size: 4.4em;
+  	letter-spacing: .05em;
+  	text-transform: uppercase;
+  	margin-bottom: .1em;
+  	display: block;
+  	color: #3a5976;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	background-color: white;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif; 
+	text-align: center;
+	font-weight: lighter;
+	font-size: 40px;
+	width: 100%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.wrapperup {
+	display: block;
+	max-width: 100%;
+	margin: auto;
+}
+
+.banner {
+	margin: 0px;
+	display: block;
+	background:url("../unit3/images/20070621_060412_o.jpg") no-repeat center center; 
+	background-size: cover;
+	overflow: hidden;
+	padding: 20%;
+	background-color: rgba(0, 0, 0, .6)
+}
+
+.about {
+	display: block;
+	max-width: 100%;
+	background-color: #f5f5f5;
+	margin: 0 auto;
+}
+
+.contact { 
+  	background-color: red;
+  	overflow: hidden;
+  	display: block;
+
+  }
+.work {
+	width: 100%;
+}
+
+.work1 {
+  	float: left;
+  	width: 25%;
+  	padding: 2% 3%;
+  	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+  	background-color: green;
+}
+
+.work2 {
+	float: left;
+  	width: 25%;
+  	padding: 2% 3%;
+  	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+  	background-color: yellow;
+}
+.work3 {
+	float: left;
+  	width: 25%;
+  	padding: 2% 3%;
+  	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+  	background-color: blue;
+}
+
+
+h3 {
+  	font-size: 3.43em;
+  	font-weight: bold;
+  	text-align: center;
+  	text-transform: none;
+  	letter-spacing: .03em;
+  	padding-top: 2em;
+  	margin: 0 auto; 
+
+}
+
+p {
+	display: block;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+  	font-size: .9em;
+  	font-weight: normal;
+  	letter-spacing: .08em;
+  	line-height: 1.3em;
+  	font-size: 100%;
+  	padding-top: 20px;
+  	padding-bottom: 120px;
+  	width: 40%;
+  	margin: 0 auto;
+}
+
+.button:hover {
+	color: #3b5998;
+}
