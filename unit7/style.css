@@ -9,7 +9,7 @@ header {
   }
 
 body {
-	background-color: white;
+	background-color: #f5f5f5;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -37,28 +37,23 @@ a {
 	text-decoration: none;
 }
 
-h3 {
-	text-align: center;
-	font-family: 'Rokkitt', serif;
-}
-
 li a {
 	color: white;
 }
 
 a:hover {
-	color: #3b5998;
+	color: #9ca2c4;
 }
 
 h1 {
-	font-family: 'Rokkitt', serif; 
+	font-family: 'Roboto Mono', sans-serif; 
 	text-align: center;
   	font-size: 4.4em;
   	letter-spacing: .05em;
-  	text-transform: uppercase;
   	margin-bottom: .1em;
   	display: block;
-  	color: #3a5976;
+  	color: #4a6084;
+  	width: 100%;
 }
 
 .wrapper {
@@ -68,11 +63,12 @@ h1 {
 }
 
 h2 {
-	font-family: 'Raleway', sans-serif; 
+	font-family: 'Roboto Mono', sans-serif; 
 	text-align: center;
 	font-weight: lighter;
 	font-size: 40px;
 	width: 100%;
+	color: #9ca2c4;
 }
 
 .clearfix:after {
@@ -88,85 +84,205 @@ h2 {
 	display: block;
 	max-width: 100%;
 	margin: auto;
+	background-color: #f5f5f5;
 }
 
 .banner {
 	margin: 0px;
 	display: block;
-	background:url("../unit3/images/20070621_060412_o.jpg") no-repeat center center; 
+	background:url("../unit7/jsfopaque.jpg") no-repeat center center; 
 	background-size: cover;
 	overflow: hidden;
 	padding: 20%;
-	background-color: rgba(0, 0, 0, .6)
+	background-color: #f5f5f5;
 }
 
-.about {
+p {
 	display: block;
-	max-width: 100%;
+	max-width: 50%;
 	background-color: #f5f5f5;
-	margin: 0 auto;
+	margin: 10% auto; 
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+  	font-size: 1.4em;
+  	font-weight: normal;
+  	letter-spacing: .08em;
+  	line-height: 1.3em;
+  	border-style: solid;
+  	border-color: #9ca2c4; 
+  	border-width: thin;
+  	padding: 5em;
+
 }
 
 .contact { 
-  	background-color: red;
+  	background-color: #f5f5f5;
   	overflow: hidden;
   	display: block;
+  	margin: 0 auto;
+  	padding: 6em;
+  	font-size: 100%; 
+  	font: ;
 
   }
+
+.social {
+	display: block;
+	background-color: #f5f5f5;
+	margin: 0;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.icon {
+	width: 40px; 
+	padding: 20px;
+}
+
 .work {
 	width: 100%;
 }
 
 .work1 {
   	float: left;
-  	width: 27.333%;
+  	width: 27%;
   	padding: 2% 3%;
   	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
-  	background-color: green;
+  	height: 20%;
+  	border-style: solid;
+  	border-color: black; 
+  	border-width: thin;
+  	background:url("../unit7/images/whitneythumb.jpg") no-repeat center;
 }
 
 .work2 {
 	float: left;
-  	width: 27.333%;
+  	width: 27%;
   	padding: 2% 3%;
   	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
-  	background-color: yellow;
+  	height: 20%;
+  	border-style: solid;
+  	border-color: black; 
+  	border-width: thin;
+  	background:url("../unit7/images/economistthumb.jpg") no-repeat center; 
+
 }
 .work3 {
 	float: left;
-  	width: 27.333%;
+  	width: 27%;
   	padding: 2% 3%;
   	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
-  	background-color: blue;
+  	height: 20%;
+  	border-style: solid;
+  	border-color: black; 
+  	border-width: thin;
+  	background:url("../unit7/images/publicisthumb.jpg") no-repeat center; 
 }
 
+.work4 {
+	float: left;
+  	width: 27%;
+  	padding: 2% 3%;
+  	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+  	height: 20%;
+  	border-style: solid;
+  	border-color: black; 
+  	border-width: thin;
+  	background:url("../unit7/images/360hancock.jpg") no-repeat center; 
+}
+
+.work5 {
+	float: left;
+  	width: 27%;
+  	padding: 2% 3%;
+  	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+  	height: 20%;
+  	border-style: solid;
+  	border-color: black; 
+  	border-width: thin;
+  	background:url("../unit7/images/nyplthumb.jpg") no-repeat center; 
+}
+
+.work6 {
+	float: left;
+  	width: 27%;
+  	padding: 2% 3%;
+  	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+  	height: 20%;
+  	border-style: solid;
+  	border-color: black; 
+  	border-width: thin;
+  	background:url("../unit7/images/360hancock.jpg") no-repeat center; 
+}
+
+.work7 {
+	float: left;
+  	width: 27%;
+  	padding: 2% 3%;
+  	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+  	height: 20%;
+  	border-style: solid;
+  	border-color: black; 
+  	border-width: thin;
+  	background:url("../unit7/images/thebravethumb.jpg") no-repeat center; 
+}
+.work8 {
+	float: left;
+  	width: 27%;
+  	padding: 2% 3%;
+  	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+  	height: 20%;
+  	border-style: solid;
+  	border-color: black; 
+  	border-width: thin;
+  	background:url("../unit7/images/kilterstasethumb.jpg") no-repeat center; 
+}
+.work9 {
+	float: left;
+  	width: 27%;
+  	padding: 2% 3%;
+  	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+  	height: 20%;
+  	border-style: solid;
+  	border-color: black; 
+  	border-width: thin;
+  	background:url("../unit7/images/nokeysthumb.jpg") no-repeat center; 
+}
 
 h3 {
-  	font-size: 3.43em;
-  	font-weight: bold;
+	font-family: 'Roboto Mono', sans-serif;
+  	font-size: 3em;
+  	width: auto;
+  	font-weight: normal;
   	text-align: center;
   	text-transform: none;
-  	letter-spacing: .03em;
-  	padding-top: 2em;
   	margin: 0 auto; 
+  	color: #4a6084;
+  	padding-bottom: 1em;
 
 }
-
-p {
+ 
+h4 {
 	display: block;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-  	font-size: .9em;
+  	font-size: 100%;
   	font-weight: normal;
   	letter-spacing: .08em;
   	line-height: 1.3em;
-  	font-size: 100%;
-  	padding-top: 20px;
-  	padding-bottom: 120px;
-  	width: 40%;
-  	margin: 0 auto;
+  	padding-top: 10%;
+  	padding-bottom: 10%; 
+  	width: 20% auto;
+  	background: transparent;
+  	margin: 25% 5%;
+  	border-style: solid;
+  	border-color: #9ca2c4;
+  	border-width: thin;
+  	color: #9ca2c4;
+
 }
 
 .button:hover {
-	color: #3b5998;
+	color: ##9ca2c4;
+
 }
