@@ -1,0 +1,189 @@
+/*#page-header > .wrapper > h1 {
+
+}*/
+
+header {
+  	width: 100%;
+  	margin: 0%;
+  	background-color: transparent; 
+  }
+
+body {
+	background-color: #f5f5f5;
+	font-family: 'Raleway', sans-serif;
+}
+
+nav {
+	float: right;
+  background-color: #4E5162;
+}
+
+ul {
+	margin-right: 30px;
+	background-color: #4E5162;
+}
+
+li {
+	background-color: #4E5162;
+	padding: 2px 1px 2px 1px;
+	margin: 0 10px;
+	display: inline-block;
+}
+
+a { 
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 400;
+	font-size: 15px; 
+	text-decoration: none;
+}
+
+li a {
+	color: #9ca2c4;
+}
+
+a:hover {
+	color: #9ca2c4;
+}
+
+h1 {
+	font-family: 'Roboto Mono', sans-serif; 
+	text-align: center;
+  	font-size: 4.4em;
+  	letter-spacing: .05em;
+  	margin-bottom: .1em;
+  	display: block;
+  	color: #bed5dc;
+  	width: 100%;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	background-color: #2E303A;
+}
+
+h2 {
+	font-family: 'Roboto Mono', sans-serif; 
+	text-align: center;
+	font-weight: lighter;
+	font-size: 40px;
+	width: 100%;
+	color: #2E303A;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.wrapperup {
+	display: block;
+	max-width: 100%;
+	margin: auto;
+	background-color: #f5f5f5;
+}
+
+.banner {
+	margin: 0px;
+	display: block;
+	background:url("../unit7/jsfopaque.jpg") no-repeat center center; 
+	background-size: cover;
+	overflow: hidden;
+	padding: 20%;
+	background-color: #f5f5f5;
+}
+
+p {
+	display: block;
+	max-width: 50%;
+	background-color: #f5f5f5;
+	margin: 10% auto; 
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+  font-size: 1.4em;
+	font-weight: normal;  	
+  letter-spacing: .08em;
+	line-height: 1.3em;
+ 	padding: 3em;
+
+}
+
+.contact { 
+  	background-color: #f5f5f5;
+  	overflow: hidden;
+  	display: block;
+  	margin: 0 auto;
+  	padding: 6em;
+  	font-size: 100%; 
+
+  }
+
+.social {
+	display: block;
+	background-color: #f5f5f5;
+	margin: 0;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.icon {
+	width: 30px; 
+	padding: 20px;
+}
+
+
+h3 {
+	font-family: 'Raleway', sans-serif; 
+  font-weight: 400;
+  font-size: 1.5em; 
+  text-decoration: none;
+  width: auto;
+  font-weight: normal;
+	text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto; 
+  color: #2E303A;
+  padding-bottom: 2.5em;
+  padding-top: 1em;
+
+}
+ 
+h4 {
+	display: block;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+  	font-size: 100%;
+  	font-weight: normal;
+  	letter-spacing: .08em;
+  	line-height: 1.3em;
+  	padding-top: 10%;
+  	padding-bottom: 10%; 
+  	width: 20% auto;
+  	background: transparent;
+  	margin: 25% 5%;
+  	border-style: solid;
+  	border-color: #9ca2c4;
+  	border-width: thin;
+  	color: #9ca2c4;
+
+}
+
+.button:hover {
+	color: ##9ca2c4;
+
+}
+
+.copyright {
+  color: #9ca2c4;
+  font-size: 1em;
+  text-align: center;
+  clear: both;
+  letter-spacing: 0.08em;
+  line-height: 1.3em;
+  padding-top: 2em;
+
+  }
