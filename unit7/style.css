@@ -15,7 +15,7 @@ body {
 
 nav {
 	float: right;
-  	background-color: #4E5162;
+  background-color: #4E5162;
 }
 
 ul {
@@ -104,11 +104,11 @@ p {
 	margin: 10% auto; 
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-  	font-size: 1.4em;
-  	font-weight: normal;
-  	letter-spacing: .08em;
-  	line-height: 1.3em;
-  	padding: 5em;
+  font-size: 1.4em;
+	font-weight: normal;  	
+  letter-spacing: .08em;
+	line-height: 1.3em;
+ 	padding: 3em;
 
 }
 
@@ -131,7 +131,7 @@ p {
 }
 
 .icon {
-	width: 40px; 
+	width: 30px; 
 	padding: 20px;
 }
 
@@ -246,15 +246,18 @@ p {
 }
 
 h3 {
-	font-family: 'Roboto Mono', sans-serif;
-  	font-size: 3em;
-  	width: auto;
-  	font-weight: normal;
-  	text-align: center;
-  	text-transform: none;
-  	margin: 0 auto; 
-  	color: #4E5162;
-  	padding-bottom: 1em;
+	font-family: 'Raleway', sans-serif; 
+  font-weight: 400;
+  font-size: 1.5em; 
+  text-decoration: none;
+  width: auto;
+  font-weight: normal;
+	text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto; 
+  color: #2E303A;
+  padding-bottom: 2.5em;
+  padding-top: 1em;
 
 }
  
