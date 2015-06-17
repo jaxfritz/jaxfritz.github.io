@@ -15,16 +15,16 @@ body {
 
 nav {
 	float: right;
-  background-color: #4E5162;
+  background-color: #f5f5f5;
 }
 
 ul {
 	margin-right: 30px;
-	background-color: #4E5162;
+	background-color: #f5f5f5;
 }
 
 li {
-	background-color: #4E5162;
+	background-color: #f5f5f5;
 	padding: 2px 1px 2px 1px;
 	margin: 0 10px;
 	display: inline-block;
@@ -42,7 +42,7 @@ li a {
 }
 
 a:hover {
-	color: #9ca2c4;
+	color: #2E303A;
 }
 
 h1 {
@@ -59,7 +59,7 @@ h1 {
 .wrapper {
 	margin: 0 auto;
 	width: 100%;
-	background-color: #2E303A;
+	background-color: #f5f5f5;
 }
 
 h2 {
@@ -137,113 +137,36 @@ p {
 
 .work {
 	width: 100%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .work1 {
   	float: left;
-  	width: 27%;
-  	padding: 2% 3%;
+  	width: 30%;
+  	padding: 2em 6em;
   	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
   	height: 20%;
   	border-style: solid;
   	border-color: black; 
   	border-width: thin;
   	background:url("../unit7/images/whitneythumb.jpg") no-repeat center;
+    margin: 0 4em;
 }
 
 .work2 {
-	float: left;
-  	width: 27%;
-  	padding: 2% 3%;
+	float: right;
+  	width: 30%;
+    padding: 2em 6em;
   	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
   	height: 20%;
   	border-style: solid;
   	border-color: black; 
   	border-width: thin;
   	background:url("../unit7/images/economistthumb.jpg") no-repeat center; 
-
-}
-.work3 {
-	float: left;
-  	width: 27%;
-  	padding: 2% 3%;
-  	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
-  	height: 20%;
-  	border-style: solid;
-  	border-color: black; 
-  	border-width: thin;
-  	background:url("../unit7/images/publicisthumb.jpg") no-repeat center; 
+    margin: 0 4em;
 }
 
-.work4 {
-	float: left;
-  	width: 27%;
-  	padding: 2% 3%;
-  	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
-  	height: 20%;
-  	border-style: solid;
-  	border-color: black; 
-  	border-width: thin;
-  	background:url("../unit7/images/360hancock.jpg") no-repeat center; 
-}
-
-.work5 {
-	float: left;
-  	width: 27%;
-  	padding: 2% 3%;
-  	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
-  	height: 20%;
-  	border-style: solid;
-  	border-color: black; 
-  	border-width: thin;
-  	background:url("../unit7/images/nyplthumb.jpg") no-repeat center; 
-}
-
-.work6 {
-	float: left;
-  	width: 27%;
-  	padding: 2% 3%;
-  	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
-  	height: 20%;
-  	border-style: solid;
-  	border-color: black; 
-  	border-width: thin;
-  	background:url("../unit7/images/mpathumb.jpg") no-repeat center; 
-}
-
-.work7 {
-	float: left;
-  	width: 27%;
-  	padding: 2% 3%;
-  	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
-  	height: 20%;
-  	border-style: solid;
-  	border-color: black; 
-  	border-width: thin;
-  	background:url("../unit7/images/thebravethumb.jpg") no-repeat center; 
-}
-.work8 {
-	float: left;
-  	width: 27%;
-  	padding: 2% 3%;
-  	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
-  	height: 20%;
-  	border-style: solid;
-  	border-color: black; 
-  	border-width: thin;
-  	background:url("../unit7/images/kilterstasethumb.jpg") no-repeat center; 
-}
-.work9 {
-	float: left;
-  	width: 27%;
-  	padding: 2% 3%;
-  	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
-  	height: 20%;
-  	border-style: solid;
-  	border-color: black; 
-  	border-width: thin;
-  	background:url("../unit7/images/nokeysthumb.jpg") no-repeat center; 
-}
 
 h3 {
 	font-family: 'Raleway', sans-serif; 

@@ -1,49 +1,88 @@
 /*#page-header > .wrapper > h1 {
 
 }*/
-
 header {
-  	width: 100%;
-  	margin: 0%;
-  	background-color: transparent; 
+    width: 100%;
+    margin: 0%;
+    background-color: #bed5dc; 
   }
 
 body {
-	background-color: #f5f5f5;
-	font-family: 'Raleway', sans-serif;
+  background-color: #bed5dc;
+  font-family: 'Raleway', sans-serif;
 }
-
 nav {
-	float: right;
-  background-color: #4E5162;
+  float: right;
+    background-color: #bed5dc;
 }
 
 ul {
-	margin-right: 30px;
-	background-color: #4E5162;
+  margin-right: 30px;
+  background-color: #bed5dc;
 }
 
 li {
-	background-color: #4E5162;
-	padding: 2px 1px 2px 1px;
-	margin: 0 10px;
-	display: inline-block;
+  background-color: #bed5dc;
+  padding: 2px 1px 2px 1px;
+  margin: 0 10px;
+  display: inline-block;
 }
 
 a { 
-	font-family: 'Raleway', sans-serif; 
-	font-weight: 400;
-	font-size: 15px; 
-	text-decoration: none;
+  font-family: 'Raleway', sans-serif; 
+  font-weight: 400;
+  font-size: 15px; 
+  text-decoration: none;
 }
 
 li a {
-	color: #9ca2c4;
+  color: #9ca2c4;
 }
 
 a:hover {
-	color: #9ca2c4;
+  color: #4E5162;
 }
+
+p  {
+  text-align: center;
+  margin: 10em auto;
+  width: 50%;
+  letter-spacing: .10em;
+  line-height: 1.5em;
+
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #bed5dc;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.wrapperup {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+  background-color: #bed5dc;
+}
+
+.blurb  {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 1em;
+  max-width: 50%;
+  line-height: 
+
+}
+
 
 h1 {
 	font-family: 'Roboto Mono', sans-serif; 
@@ -187,3 +226,113 @@ h4 {
   padding-top: 2em;
 
   }
+
+  .work {
+  width: 100%;
+}
+
+.work1 {
+    float: left;
+    width: 27%;
+    padding: 2% 3%;
+    box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+    height: 20%;
+    border-style: solid;
+    border-color: black; 
+    border-width: thin;
+    background:url("../unit7/images/whitneythumb.jpg") no-repeat center;
+}
+
+.work2 {
+  float: left;
+    width: 27%;
+    padding: 2% 3%;
+    box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+    height: 20%;
+    border-style: solid;
+    border-color: black; 
+    border-width: thin;
+    background:url("../unit7/images/economistthumb.jpg") no-repeat center; 
+
+}
+.work3 {
+  float: left;
+    width: 27%;
+    padding: 2% 3%;
+    box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+    height: 20%;
+    border-style: solid;
+    border-color: black; 
+    border-width: thin;
+    background:url("../unit7/images/publicisthumb.jpg") no-repeat center; 
+}
+
+.work4 {
+  float: left;
+    width: 27%;
+    padding: 2% 3%;
+    box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+    height: 20%;
+    border-style: solid;
+    border-color: black; 
+    border-width: thin;
+    background:url("../unit7/images/360hancock.jpg") no-repeat center; 
+}
+
+.work5 {
+  float: left;
+    width: 27%;
+    padding: 2% 3%;
+    box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+    height: 20%;
+    border-style: solid;
+    border-color: black; 
+    border-width: thin;
+    background:url("../unit7/images/nyplthumb.jpg") no-repeat center; 
+}
+
+.work6 {
+  float: left;
+    width: 27%;
+    padding: 2% 3%;
+    box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+    height: 20%;
+    border-style: solid;
+    border-color: black; 
+    border-width: thin;
+    background:url("../unit7/images/mpathumb.jpg") no-repeat center; 
+}
+
+.work7 {
+  float: left;
+    width: 27%;
+    padding: 2% 3%;
+    box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+    height: 20%;
+    border-style: solid;
+    border-color: black; 
+    border-width: thin;
+    background:url("../unit7/images/thebravethumb.jpg") no-repeat center; 
+}
+.work8 {
+  float: left;
+    width: 27%;
+    padding: 2% 3%;
+    box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+    height: 20%;
+    border-style: solid;
+    border-color: black; 
+    border-width: thin;
+    background:url("../unit7/images/kilterstasethumb.jpg") no-repeat center; 
+}
+.work9 {
+  float: left;
+    width: 27%;
+    padding: 2% 3%;
+    box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+    height: 20%;
+    border-style: solid;
+    border-color: black; 
+    border-width: thin;
+    background:url("../unit7/images/nokeysthumb.jpg") no-repeat center; 
+}
