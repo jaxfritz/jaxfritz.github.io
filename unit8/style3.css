@@ -4,35 +4,37 @@
 header {
     width: 100%;
     margin: 0%;
-    background-color: #F3F3F7; 
+    background-color: #f3f3f3; 
   }
 
 body {
-  background-color: #F3F3F7;
+  background-color: #f3f3f3;
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
 }
 nav {
+  width: 25%;
   float: right;
-    background-color: #F3F3F7;
+  background-color: #F3F3F7;
+  margin-right: 2%;
 }
 
 ul {
-  margin-right: 1.67em;
+  margin-right: 3%;
   background-color: #F3F3F7;
 }
 
 li {
   background-color: #F3F3F7;
-  padding: .10em .20em .10em .20em;
-  margin: 0 .35em;
+  padding: 1% 2% 1% 2%;
+  margin: 0 5%;
   display: inline-block;
 }
 
 a { 
   font-family: 'Raleway', sans-serif; 
   font-weight: 400;
-  font-size: .85em; 
+  font-size: 70%; 
   text-decoration: none;
 }
 
@@ -53,6 +55,7 @@ p  {
   border-style: solid;
   border-color: #FF00FF;
   border-width: thin;
+  font-size: 10%;
 
 }
 
@@ -90,7 +93,7 @@ p  {
 h1 {
 	font-family: 'Roboto Mono', sans-serif; 
 	text-align: center;
-  	font-size: 3em;
+  	font-size: 230%;
   	letter-spacing: .05em;
   	margin-bottom: .1em;
   	display: block;
@@ -101,7 +104,7 @@ h1 {
 .wrapper {
 	margin: 0 auto;
 	width: 100%;
-	background-color: #2E303A;
+	background-color: #F3F3F7;
 }
 
 h2 {
@@ -161,7 +164,7 @@ p {
   	margin: 0 auto;
   	padding: 6em;
   	font-size: 100%; 
-
+    text-align: center;
   }
 
 .social {
@@ -338,14 +341,26 @@ h4 {
 
 @media only screen and (max-width: 1219px) {
 .work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8, .work9  {
-  width: 40%;
-}
+  width: 43.5%;
 }
 
-@media only screen and (max-width: 1219px) {
+@media only screen and (max-width: 780px) {
 .work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8, .work9  {
-  width: 40%;
+  width: 43.5%;
 }
+
+
+@media only screen and (min-width: 480px) {
+  nav {
+    float: none;
+    width: auto
+
 }
+
+@media only screen and (max-width: 1270px) and (min-width: 674px) {
+ nav {
+    float: none;
+    width: auto;
+} 
 
 
