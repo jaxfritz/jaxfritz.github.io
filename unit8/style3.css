@@ -4,43 +4,44 @@
 header {
     width: 100%;
     margin: 0%;
-    background-color: #bed5dc; 
+    background-color: #F3F3F7; 
   }
 
 body {
-  background-color: #bed5dc;
+  background-color: #F3F3F7;
   font-family: 'Raleway', sans-serif;
+  font-size: 18px;
 }
 nav {
   float: right;
-    background-color: #bed5dc;
+    background-color: #F3F3F7;
 }
 
 ul {
-  margin-right: 30px;
-  background-color: #bed5dc;
+  margin-right: 1.67em;
+  background-color: #F3F3F7;
 }
 
 li {
-  background-color: #bed5dc;
-  padding: 2px 1px 2px 1px;
-  margin: 0 10px;
+  background-color: #F3F3F7;
+  padding: .10em .20em .10em .20em;
+  margin: 0 .35em;
   display: inline-block;
 }
 
 a { 
   font-family: 'Raleway', sans-serif; 
   font-weight: 400;
-  font-size: 15px; 
+  font-size: .85em; 
   text-decoration: none;
 }
 
 li a {
-  color: #9ca2c4;
+  color: #696977;
 }
 
 a:hover {
-  color: #4E5162;
+  color: #FF00FF;
 }
 
 p  {
@@ -49,13 +50,16 @@ p  {
   width: 50%;
   letter-spacing: .10em;
   line-height: 1.5em;
+  border-style: solid;
+  border-color: #FF00FF;
+  border-width: thin;
 
 }
 
 .wrapper {
   margin: 0 auto;
   width: 100%;
-  background-color: #bed5dc;
+  background-color: #F3F3F7;
 }
 
 .clearfix:after {
@@ -71,7 +75,7 @@ p  {
   display: block;
   max-width: 100%;
   margin: auto;
-  background-color: #bed5dc;
+  background-color: #F3F3F7;
 }
 
 .blurb  {
@@ -79,7 +83,6 @@ p  {
   margin: 0 auto;
   padding-top: 1em;
   max-width: 50%;
-  line-height: 
 
 }
 
@@ -87,11 +90,11 @@ p  {
 h1 {
 	font-family: 'Roboto Mono', sans-serif; 
 	text-align: center;
-  	font-size: 4.4em;
+  	font-size: 3em;
   	letter-spacing: .05em;
   	margin-bottom: .1em;
   	display: block;
-  	color: #bed5dc;
+  	color: #FF00FF;
   	width: 100%;
 }
 
@@ -105,7 +108,7 @@ h2 {
 	font-family: 'Roboto Mono', sans-serif; 
 	text-align: center;
 	font-weight: lighter;
-	font-size: 40px;
+	font-size: .5em;
 	width: 100%;
 	color: #2E303A;
 }
@@ -143,7 +146,7 @@ p {
 	margin: 10% auto; 
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-  font-size: 1.4em;
+  font-size: 1em;
 	font-weight: normal;  	
   letter-spacing: .08em;
 	line-height: 1.3em;
@@ -170,8 +173,8 @@ p {
 }
 
 .icon {
-	width: 30px; 
-	padding: 20px;
+	width: 1.66em; 
+	padding: 1em;
 }
 
 
@@ -192,45 +195,40 @@ h3 {
 }
  
 h4 {
-	display: block;
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
-  	font-size: 100%;
+	 display: block;
+	 text-align: center;
+	 font-family: 'Raleway', sans-serif;
+  	font-size: 80%;
   	font-weight: normal;
   	letter-spacing: .08em;
-  	line-height: 1.3em;
   	padding-top: 10%;
   	padding-bottom: 10%; 
-  	width: 20% auto;
+  	width: 10% auto;
   	background: transparent;
-  	margin: 25% 5%;
+  	/*margin: 25% 5%;*/
   	border-style: solid;
   	border-color: #9ca2c4;
   	border-width: thin;
-  	color: #9ca2c4;
+  	color: #FF00FF;
+    position: relative;
 
 }
 
 .button:hover {
-	color: ##9ca2c4;
+	color: #FF00FF;
 
 }
 
 .copyright {
-  color: #9ca2c4;
+  color: #FF00FF;
   font-size: 1em;
   text-align: center;
   clear: both;
   letter-spacing: 0.08em;
   line-height: 1.3em;
   padding-top: 2em;
-
-  }
-
-  .work {
-  width: 100%;
+  
 }
-
 .work1 {
     float: left;
     width: 27%;
@@ -241,6 +239,7 @@ h4 {
     border-color: black; 
     border-width: thin;
     background:url("../unit7/images/whitneythumb.jpg") no-repeat center;
+    overflow: hidden;
 }
 
 .work2 {
@@ -336,3 +335,17 @@ h4 {
     border-width: thin;
     background:url("../unit7/images/nokeysthumb.jpg") no-repeat center; 
 }
+
+@media only screen and (max-width: 1219px) {
+.work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8, .work9  {
+  width: 40%;
+}
+}
+
+@media only screen and (max-width: 1219px) {
+.work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8, .work9  {
+  width: 40%;
+}
+}
+
+
