@@ -23,12 +23,14 @@ ul {
     background-color: #F3F3F7;
     float: right;
     display: inline-block;
+    margin-right: 1%;
+    padding: 0;
 }
 
 li {
     background-color: #F3F3F7;
     display: inline-block;
-    padding: 0 3%;
+    padding: 0 .5%;
   }
 
 a { 
@@ -162,9 +164,9 @@ h3 {
 h4 {
 	  display: block;
 	  text-align: center;
-	  font-family: 'Raleway', sans-serif;
+	  font-family: 'Roboto Mono', sans-serif;
   	font-size: 80%;
-  	font-weight: normal;
+  	font-weight: bold;
   	letter-spacing: .08em;
   	padding-top: 10%;
   	padding-bottom: 10%; 
@@ -199,7 +201,7 @@ h4 {
     float: left;
     width: 27%;
     padding: 2% 3%;
-    box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 0 0 rgba(0,0,0,.15);
     height: 20%;
     border-style: solid;
     border-color: black; 
@@ -216,7 +218,7 @@ h4 {
 }
 
 #project3 {
-background:url("../unit7/images/publicisthumb.jpg") no-repeat center; 
+    background:url("../unit7/images/publicisthumb.jpg") no-repeat center; 
 }
 
 #project4 {
@@ -244,42 +246,32 @@ background:url("../unit7/images/publicisthumb.jpg") no-repeat center;
 }
 
 
-
-
-
-
-
-
-
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 870px) {
 .work {
   width: 43.5%;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
 .work {
   width: 100%;
+  float: none;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 550px) {
+h4 {
+    padding: 2% 1%;
+    width: 70%;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 500px) {
 ul {
   width: 100%;
   display: inline-block;
-  margin: 1em auto;
   float: none;
-
+  margin: 3%;
 }
-@media only screen and (max-width: 480px) {
-li {
-  margin-left: 1.5em;
-}
-
-
-
-
-
-
 
 
 
