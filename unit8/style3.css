@@ -23,21 +23,21 @@ ul {
     background-color: #F3F3F7;
     float: right;
     display: inline-block;
-    margin-right: 1%;
     padding: 0;
 }
 
 li {
     background-color: #F3F3F7;
     display: inline-block;
-    padding: 0 .5%;
+    padding: 0 2%;
   }
 
 a { 
     font-family: 'Raleway', sans-serif; 
-    font-weight: 400;
+    font-weight: 600;
     font-size:  1em; 
     text-decoration: none;
+    color: #2E303A;
 }
 
 li a {
@@ -147,11 +147,10 @@ p {
 
 h3 {
   	font-family: 'Raleway', sans-serif; 
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1.5em; 
     text-decoration: none;
     width: auto;
-    font-weight: normal;
   	text-align: center;
     text-transform: uppercase;
     margin: 0 auto; 
@@ -165,7 +164,7 @@ h4 {
 	  display: block;
 	  text-align: center;
 	  font-family: 'Roboto Mono', sans-serif;
-  	font-size: 80%;
+  	font-size: 90%;
   	font-weight: bold;
   	letter-spacing: .08em;
   	padding-top: 10%;
@@ -210,41 +209,40 @@ h4 {
 }
 
 #project1 {
-    background:url("../unit7/images/whitneythumb.jpg") no-repeat center;
+    background:url("images/whitneythumb.jpg") no-repeat center;
 }
 
 #project2 {
-    background:url("../unit7/images/economistthumb.jpg") no-repeat center; 
+    background:url("images/economistthumb.jpg") no-repeat center; 
 }
 
 #project3 {
-    background:url("../unit7/images/publicisthumb.jpg") no-repeat center; 
+    background:url("images/publicisthumb.jpg") no-repeat center; 
 }
 
 #project4 {
-    background:url("../unit7/images/360hancock.jpg") no-repeat center;
+    background:url("images/360hancock.jpg") no-repeat center;
 }
 
 #project5 {
-    background:url("../unit7/images/nyplthumb.jpg") no-repeat center; 
+    background:url("images/nyplthumb.jpg") no-repeat center; 
 }
 
 #project6 {
-    background:url("../unit7/images/mpathumb.jpg") no-repeat center; 
+    background:url("images/mpathumb.jpg") no-repeat center; 
 }
 
 #project7 {
-    background:url("../unit7/images/thebravethumb.jpg") no-repeat center; 
+    background:url("images/thebravethumb.jpg") no-repeat center; 
 }
 
 #project8 {
-    background:url("../unit7/images/kilterstasethumb.jpg") no-repeat center; 
+    background:url("images/kilterstasethumb.jpg") no-repeat center; 
 }
 
 #project9 {
-    background:url("../unit7/images/nokeysthumb.jpg") no-repeat center; 
+    background:url("images/nokeysthumb.jpg") no-repeat center; 
 }
-
 
 @media only screen and (max-width: 870px) {
 .work {
@@ -265,15 +263,45 @@ h4 {
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 500px) {
-ul {
-  width: 100%;
-  display: inline-block;
-  float: none;
-  margin: 3%;
+.span {
+  margin-left: 2em;
 }
 
+.mobile-nav {
+  margin-top: 0;
+  margin-bottom: 1%;
 
+}
+
+.menu-btn div {
+  position: absolute;
+  right: 90%;
+  top: 64%;
+  padding-right: 8px;
+  margin-top: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 200;
+  vertical-align: middle;
+  z-index: 99;
+}
+ 
+.menu-btn span {
+  display: block;
+  width: 4.5%;
+  height: 2px;
+  margin: 1.25% 95%;
+  z-index: 99;
+  background-color: #696977;
+}
+ 
+.responsive-menu {
+  display: none;
+}
+ 
+.expand {
+  display: block !important; 
+}
 
 
 
