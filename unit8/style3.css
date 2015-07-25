@@ -257,6 +257,12 @@ h4 {
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 770px) {
+   .responsive-menu ul {
+      width: 36%;
+   }
+  
+
 @media only screen and (max-width: 550px) {
 h4 {
     padding: 2% 1%;
