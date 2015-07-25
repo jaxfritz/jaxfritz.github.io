@@ -258,10 +258,9 @@ h4 {
 }
 
 @media only screen and (max-width: 770px) {
-   .responsive-menu ul {
+.responsive-menu ul {
       width: 36%;
    }
-  
 
 @media only screen and (max-width: 550px) {
 h4 {
