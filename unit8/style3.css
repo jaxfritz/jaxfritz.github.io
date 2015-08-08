@@ -319,7 +319,7 @@ h4 {
 
 @media only screen and (max-width: 320px) {
   .banner {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
   }
 
