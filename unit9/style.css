@@ -43,7 +43,7 @@ nav a:hover {
 
 
 h1 {
-	color:#FF00FF;
+	color: #6767BA;
 	font-family: 'Hind', sans-serif;
 	font-size: 2.5em;
 	margin-left: 1%;
@@ -62,7 +62,7 @@ h2 {
 	border-style: solid;
   	border-color: #9ca2c4;
   	border-width: thin;
-  	background-color: #9ca2c4;
+  	background-color: #6767BA;
   	width: 60%;
 }
 
