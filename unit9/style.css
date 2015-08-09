@@ -79,7 +79,7 @@ h4 {
 	display: block;
 	text-align: center;
 	font-family: 'Raleway', sans-serif; 
-  	font-size: 90%;
+  	font-size: .65em;
   	font-weight: bold;
   	letter-spacing: .08em;
   	padding-top: 10%;
@@ -90,7 +90,7 @@ h4 {
   	border-style: solid;
   	border-color: #9ca2c4;
   	border-width: thin;
-  	color: #000000;
+  	color: #6767BA;
     position: relative;
 
 }
@@ -209,7 +209,7 @@ h4:hover {
 	background:url("../unit7/jsfopaque.jpg") no-repeat center center fixed;
 	background-size: cover;
 	font-family: 'Raleway', sans-serif;
-	height: 75vh;
+	height: 60vh;
 }
 
 .wrapper {
@@ -220,7 +220,7 @@ h4:hover {
 
 .touch {
 	width: 70%;
-	background-color: #242424;
+	background-color: #6767BA;
 	padding: 3% 4%;
 	margin: -20% auto;
 }
