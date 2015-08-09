@@ -5,6 +5,8 @@ header {
     width: 100%;
     margin: 0%;
     background-color: #f3f3f3; 
+    border-color: red;
+    border-width: 1px;
   }
 
 body {
