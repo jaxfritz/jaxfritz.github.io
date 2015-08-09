@@ -159,7 +159,7 @@ h4:hover {
 }
 
 #project1 {
-  background:url("..images/whitneythumb.jpg") no-repeat center;
+  background:url("images/whitneythumb.jpg") no-repeat center;
 }
 
 #project2 {
@@ -198,7 +198,6 @@ h4:hover {
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-	background:;
 	color:#000000;
 	font-family: 'Raleway', sans-serif;
 }
@@ -212,6 +211,11 @@ h4:hover {
 	height: 50vh;
 }
 
+.wrapper {
+	width: 70%;
+	margin: 0 auto;
+	background-color: #323232;
+}
 
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
