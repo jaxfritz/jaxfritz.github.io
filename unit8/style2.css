@@ -68,6 +68,9 @@ p  {
 	margin: 0 auto;
 	width: 100%;
 	background-color: #f3f3f3;
+	border-style: solid;
+	border-color: red;
+	padding: 2%;
 }
 
 .clearfix:after {
