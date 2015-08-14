@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="UTF-8">
+	<title>Jacqueline Fritz</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initialscale=1">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<header>
+  <h1>JACQUELINE FRITZ</h1>
+		<ul>
+		<li id="hamburger">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</li>
+
+			<div class="responsive-menu">
+    		<ul class="clearfix">
+    				<li class="navitem"><a href="http://jaxfritz.github.io/unit8/index2.html">about</a></li>
+    				<li class="navitem"><a href="#workit">work</a></li>
+    				<li class="navitem"><a href="#menubackground2">contact</a></li>
+            		</ul>
+            </div>
+</header>
+
+<main>
+ 	<div id="menubackground">
+ 		<a name="Menu"> </a>
+ 	</div>
+</main>
+
+<script type="text/javascript">
+   		jQuery(function($){
+     		$( '.menu-btn' ).click(function(){
+         	$('.responsive-menu').toggleClass('expand')
+      })
+   })
+</script>
+</body>

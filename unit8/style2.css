@@ -77,12 +77,11 @@ p  {
 	height: 0;
 }
 
-.blurb  {
-	text-align: center;
+#blurb  {
 	margin: 0 auto;
 	padding-top: 1em;
-	max-width: 50%;
-	background: url("../unit9/jsfshot.jpg") no-repeat center center fixed;
+	max-width: 70%;
+	background: url("../unit9/jsfshot.jpg") no-repeat center;
 
 }
 
