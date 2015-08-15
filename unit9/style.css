@@ -67,7 +67,7 @@ h2 {
 
 }
 
-.bod { 
+#bod { 
 	color:#000000;
 	text-align: center;
 	font-size: 1em;
@@ -241,7 +241,7 @@ img  {
 
 }
 
-.social {
+#social {
 	margin: 10% auto;
 	width: 70%;
 
