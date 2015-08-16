@@ -16,6 +16,10 @@ a {
    text-decoration: none;
 }
 
+a:hover {
+	color: #FF00FF;
+}
+
 nav {
     width: 100%;
     background-color: none;
@@ -41,7 +45,6 @@ nav a {
 li a:hover {
    color: #FF00FF;
 }
-
 
 h1 {
 	color: #000000;
