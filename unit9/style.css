@@ -1,7 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Bad+Script);
-@import url(http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco);
-@import url(http://fonts.googleapis.com/css?family=Hind:700,400);
-* { margin:0;padding:0;box-sizing:border-box; }
+
 
 body {
 	color: #000000;
@@ -253,6 +250,9 @@ img  {
 	width: 70%;
 
 }
+img .icon-email:hover{
+	background-color: green;
+}
 
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
 
@@ -275,7 +275,7 @@ img  {
 
  .line {
  	width: 1.5em;
- 	height: .2em;
+ 	height: .5em;
  	background: #242424;
  	border-radius: 2em;
  	margin: .25em;
@@ -294,8 +294,28 @@ img  {
   }
 }
 
+html
+<nav class="desktop">
+    			<div class="responsive-menu">
+			<ul>
+    				<li class="navitem"><a href="http://jaxfritz.github.io/unit9/about.html">about</a></li>
+    				<li class="navitem"><a href="#workit">work</a></li>
+    				<li class="navitem"><a href="#menubackground2">contact</a></li>
+            		</ul>
+            </div>
+    </nav>
+<style>
 
+nav.desktop {
+	display: inline-block;
+}
 
-
-
-
+nav.mobile-nav {
+	display: none;
+}
+@media only screen and (max-width: 460px) {
+	nav.desktop{
+		display: none;
+	}
+}
+</style>
